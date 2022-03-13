@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+}
+#character{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    background-color: red;
+    top: 440px;
+    left: 100px;
+}
+.animate{
+    animation: jump 1s;
+}
+@keyframes jump {
+    0%{top: 440px;}
+    30%{top: 250px;}
+    100%{top: 440px;}
+}
+#block{
+    width: 50px;
+    height: 100px;
+    position: relative;
+    background-color: black;
+    top: 350px;
+    left: 670px;
+    animation: block 2s infinite linear;
+}
+@keyframes block {
+    0%{left: 670px;}
+    100%{left: -50px;}
+}
+#info{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#info2{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#info3{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#info4{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#info5{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#info6{
+    width: 300px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+#ind1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid black;
+    top: 440px;
+    left: 400px;
+}
+#ind2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid black;
+    top: 400px;
+    left: 400px;
+}
+#ind3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid black;
+    top: 360px;
+    left: 400px;
+}
+#ind4{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid black;
+    top: 320px;
+    left: 400px;
+}
