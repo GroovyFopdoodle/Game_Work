@@ -1,6 +1,6 @@
 import { getInputDirection } from "./Game_3_Script_3_input.js"
 
-export const SNAKE_SPEED = 5
+export const SNAKE_SPEED = 15
 const snakeBody = [
     {x: 11, y: 11}
 ]
