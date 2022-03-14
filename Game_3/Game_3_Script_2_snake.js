@@ -5,6 +5,7 @@ const snakeBody = [
     {x: 11, y: 11}
 ]
 let newSegments = 0
+let score = 0
 
 export function update(){
     addSegments()
@@ -28,11 +29,10 @@ export function draw(gameBoard){
     })
 }
 
-let score = 0
 
 export function expandSnake(amount){
     newSegments += amount
-    score += 1
+    score += amount
     console.log(score)
 }
 
