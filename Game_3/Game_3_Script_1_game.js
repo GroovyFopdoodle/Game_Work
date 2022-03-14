@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board');
 function main(currentTime){
     if (gameOver){
         if (confirm('You lost, final score was ' + (score - 1) + '. Press ok to restart')){
-            window.location = '/';
+            window.location.reload();
         }
         else {window.close()}
     }
