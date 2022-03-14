@@ -28,8 +28,12 @@ export function draw(gameBoard){
     })
 }
 
+let score = 0
+
 export function expandSnake(amount){
     newSegments += amount
+    score += 1
+    console.log(score)
 }
 
 export function onSnake(position, {ignoreHead = false} = {}){
