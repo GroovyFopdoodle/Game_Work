@@ -51,7 +51,7 @@ function equalPositions(pos1, pos2){
     return pos1.x === pos2.x && pos1.y === pos2.y
 }
 
-var score = 0
+let score = 0
 
 function addSegments(){
     for(let i = 0; i < newSegments; i++){
