@@ -55,7 +55,7 @@ var score = 0
 
 function addSegments(){
     for(let i = 0; i < newSegments; i++){
-        score = score++;
+        score = score+1;
         console.log(score);
         snakeBody.push({...snakeBody[snakeBody.length-1]})
     }
