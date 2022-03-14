@@ -51,12 +51,9 @@ function equalPositions(pos1, pos2){
     return pos1.x === pos2.x && pos1.y === pos2.y
 }
 
-let score = 0
 
 function addSegments(){
     for(let i = 0; i < newSegments; i++){
-        score = score+1;
-        console.log(score);
         snakeBody.push({...snakeBody[snakeBody.length-1]})
     }
 
