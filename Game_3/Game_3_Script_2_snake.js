@@ -32,7 +32,7 @@ export function draw(gameBoard){
 
 export function expandSnake(amount){
     newSegments += amount
-    score += amount
+    score += 1
     console.log(score)
 }
 
